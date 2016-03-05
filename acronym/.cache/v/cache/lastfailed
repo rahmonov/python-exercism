@@ -1,0 +1,8 @@
+{
+  "acronym_test.py::AcronymTest::test_all_caps_words": true, 
+  "acronym_test.py::AcronymTest::test_basic": true, 
+  "acronym_test.py::AcronymTest::test_camelcase": true, 
+  "acronym_test.py::AcronymTest::test_hyphenated": true, 
+  "acronym_test.py::AcronymTest::test_lowercase_words": true, 
+  "acronym_test.py::AcronymTest::test_punctuation": true
+}
