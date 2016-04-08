@@ -1,23 +1,16 @@
+from collections import defaultdict
+
+
 class School():
     def __init__(self, name):
         self.name = name
-        self._db = dict()
+        self.db = defaultdict(set)
 
     def add(self, student, grade):
-        if grade not in self._db:
-            self._db[grade] = set()
-
-        self._db[grade].add(student)
+        self.db[grade].add(student)
 
     def grade(self, grade):
-        if grade not in self._db:
-            return set()
-
-        return self._db[grade]
+        return self.db[grade]
 
     def sort(self):
-        return [(grade, tuple(self._db[grade])) for grade in sorted(self._db)]
-
-    @property
-    def db(self):
-        return self._db
+        return [(grade, tuple(self.db[grade])) for grade in sorted(self.db)]
