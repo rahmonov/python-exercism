@@ -1,4 +1,4 @@
-# My solutions to exercism.io problems (python) 
+# My solutions to [exercism.io](http://exercism.io/) problems (python) 
 
 Exercism is many things: An experiment. A bunch of interesting people. Chaotic. An open source project.
 
